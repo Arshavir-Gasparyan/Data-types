@@ -32,3 +32,8 @@ console.log(null || (2 && 3) || 4);
 // Create two variants: the first one using NOT !, the second one – without it.
 if (!(age >= 14 && age <= 90));
 if (age < 14 || age > 90);
+
+// A question about "if"
+if (-1 || 0) alert("first"); //true
+if (-1 && 0) alert("second"); // false
+if (null || (-1 && 1)) alert("third"); //true
