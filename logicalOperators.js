@@ -11,3 +11,8 @@ console.log(null || 2 || undefined);
 // alert( 1 && null && 2 );
 // result = null
 console.log(1 && null && 2);
+
+// What is the result of AND'ed alerts?
+// alert( alert(1) && alert(2) );
+// result = 1, then undefined
+console.log(1);
