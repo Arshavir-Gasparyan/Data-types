@@ -16,3 +16,8 @@ console.log(1 && null && 2);
 // alert( alert(1) && alert(2) );
 // result = 1, then undefined
 console.log(1);
+
+// The result of OR AND OR
+// alert( null || 2 && 3 || 4 );
+// rezult = 3
+console.log(null || (2 && 3) || 4);
